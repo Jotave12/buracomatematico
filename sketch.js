@@ -38,7 +38,7 @@ function reset(){
   xjogador=340;
   yjogador=440;
   fill(0)
-  image( img3, xjogador, yjogador, 30, 30);
+  image( img3, xjogador, yjogador, 50, 50);
 }
 function sorteio() {
   n1 = Math.floor(random(1,20));
@@ -145,7 +145,6 @@ if (key == "Enter"){
         cont=910;
         pontos=0;
         img2= loadImage('IMG_0584.gif');
-        
      } 
   }
 }
@@ -271,10 +270,20 @@ function creditos(){
 function gameover(){
   background(img2);
     fill(255);
-    textSize(50);
     //text('VOCÊ FOI SUGADO!', 235, 200);
     //text('PONTUÇÃO: ', 280, 250);
+  
+  if(pontos>=0 && pontos<=10){
+    textSize(50);
     text(pontos, 335, 300);
+  }
+  if(pontos>10 && pontos<=99){
+     textSize(50);
+    text(pontos, 325, 300)
+  }if(pontos>=100){
+    textSize(50);
+    text(pontos, 310, 300)
+  }
     textSize(23);
     fill(0);
     stroke(0);
