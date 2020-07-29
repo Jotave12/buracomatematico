@@ -249,7 +249,7 @@ function fase1(){
   text('Instruções', 280, 30);
   textSize(22);
   fill(255);
-  text(' Este jogo foi feito para alunos do 4º ano do Fundamental.\n Com o intuito de instigar o aluno a resolver problemas matamáticos \n contra o tempo, utilizando sua coordenação motora.\n\n Use a setas do seu teclado para movimentar seu personagem\n para Direita, Esquerda, Cima ou Baixo. Resolva o desafio com a\n resposta do buraco correto e se divirta!',10, 100);
+  text(' Este jogo foi feito para alunos do 4º ano do Fundamental.\n Com o intuito de instigar o aluno a resolver problemas matemáticos \n contra o tempo, utilizando sua coordenação motora.\n\n Use a setas do seu teclado para movimentar seu personagem\n para Direita, Esquerda, Cima ou Baixo. Resolva o desafio com a\n resposta do buraco correto e se divirta!',10, 100);
     text('Pressione "ESC" para voltar ao menu', 30, 480);
 }
 function creditos(){
