@@ -41,24 +41,24 @@ function reset(){
   image( img3, xjogador, yjogador, 50, 50);
 }
 function sorteio() {
-  n1 = Math.floor(random(1,20));
-  n2 = Math.floor(random(-20,20));
+  n1 = parseInt(random(1,20));
+  n2 = parseInt(random(-20,20));
   certo = parseInt(random(1,3.9));
   
   if(certo==3) {
      valorObstaculo3=n1+n2;
-     valorObstaculo2=Math.floor(random(-20,50));
-     valorObstaculo1=Math.floor(random(-20,50));
+     valorObstaculo2=parseInt(random(-20,50));
+     valorObstaculo1=parseInt(random(-20,50));
   }
   if(certo==2) {
      valorObstaculo2=n1+n2;
-     valorObstaculo1=Math.floor(random(-20,50));
-     valorObstaculo3=Math.floor(random(-20,50));
+     valorObstaculo1=parseInt(random(-20,50));
+     valorObstaculo3=parseInt(random(-20,50));
     }
   if(certo==1) {
       valorObstaculo1=n1+n2;
-      valorObstaculo3=Math.floor(random(-20,50));
-      valorObstaculo2=Math.floor(random(-20,50));
+      valorObstaculo3=parseInt(random(-20,50));
+      valorObstaculo2=parseInt(random(-20,50));
     }
 }
 
