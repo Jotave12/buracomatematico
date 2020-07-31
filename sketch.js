@@ -79,6 +79,7 @@ function preload() {
   som2=loadSound('win.mp3');
   img4=loadImage('IMG_0572.jpg');
   img5=loadImage('IMG_0581.gif');
+  img6=loadImage('IMG9.jpg');
 }
 function draw(){
   background(img);
@@ -260,8 +261,10 @@ function creditos(){
   textSize(20);
   fill(255);
   image(img1, 20, 50, 200, 200);
-  text('Ilustração: Jorânia Mendonça', 400, 270);
-  text('Instragram: @Ilustrariscando', 400, 300);
+  image(img6, 380, 50, 200, 200);
+  text('Ilustração: Jorânia Mendonça', 350, 270);
+  text('Instragram: @Ilustrariscando', 350, 300);
+  text('Instragram: @jotaconcepcoescriativas', 350, 330);
   text('Progamador: João Victor Santos',20, 270);
   text('Instagram: @jv_santos12\nFacebook: João Victor Santos', 20, 300);
   text('Pressione "ESC" para voltar ao menu', 30, 480);
